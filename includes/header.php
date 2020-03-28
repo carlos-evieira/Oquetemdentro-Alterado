@@ -71,7 +71,7 @@
         </form>
             <ul class="navbar-nav mr-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Adm</a>
+                  <a class="nav-link" href="usuarios.php">Adm</a>
               </li>
             </ul>    
     </div>
