@@ -26,6 +26,20 @@
 </div>
 
 
+<span class="align-bottom ">
+ <div class="card text-muted " id="box4" style="width: 25rem;" >
+  <div class="card-body " align="justify ">
+    <p class="card-text " >
+    <h3 class="display-6" align="center">
+    Consuma os mais variados produtos sem preocupação!
+        </h3>
+Esta platadorma lhe avisará quais produtos poderão lhe causar alergias.<br>
+Tudo isso graças ao cruzamento entre as informações forncecidas por você e os ingredientes presentes nos produtos do supermercado.<br><br>
+Experimente já !</p>
+  </div>
+</div>
+</div>
+</span>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
