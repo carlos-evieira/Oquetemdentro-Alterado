@@ -1,7 +1,4 @@
 
-<?php 
-    require_once('./includes/header.php');
-    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,10 +12,8 @@
 
 </head>
 <body>
+<?php require_once('./includes/header.php'); ?>
 
-
-   
-    
     <main>
         <section class="instrucao1">Posicione o codigo de barras na área abaixo:</section>
         <div class="leitura"></div>

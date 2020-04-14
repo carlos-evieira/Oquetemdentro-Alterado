@@ -12,7 +12,7 @@
     <?php require_once('./includes/header.php'); ?>
     <div class="container">  
         <div class="row">
-            <div class="col-md-12 col-sm-10 text-center my-4 mb-5 mt-2">
+            <div class="col-md-12 col-sm-10 text-center my-4 mb-3 mt-2">
                 <h1 class="display-4"><i class="fa fa-envelope text-primary col-12 col-md-1" aria-hidden="true"></i>
                 Complete Seu Cadastro
                 </h1>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>  
-            <div class="enviar">
+            <div class="col-lg-12 text-right enviar">
                 <button type="submit" class="btn btn-danger ">Enviar</button>
                 <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus"
                     title="Pintou alguma dúvida?!" data-content="Fale conosco: help@oquetemdentro.com">Ajuda</a>

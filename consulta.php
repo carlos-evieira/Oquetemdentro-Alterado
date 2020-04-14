@@ -1,6 +1,4 @@
-<?php 
-    require_once('./includes/header.php');
-    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +11,7 @@
 </head>
 
 <body>
+<?php require_once('./includes/header.php'); ?>
 
 <div class="container">
     <main>

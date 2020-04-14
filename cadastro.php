@@ -1,6 +1,4 @@
-<?php 
-    require_once('./includes/header.php');
-    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +10,7 @@
     <title>O que tem Dentro</title>
 </head>
 <body>
-   
+<?php require_once('./includes/header.php'); ?>
 <div class="row">
     <div class="col-md-12 col-10 text-center my-md-4 mb-4 mt-2 ml-4">
         <h1 class="display-4">

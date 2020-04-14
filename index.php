@@ -1,6 +1,3 @@
-<?php 
-   		require('./includes/header.php');
-	?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +10,7 @@
 </head>
 
 <body class="index">
+<?php require_once('./includes/header.php'); ?>
 
  <div class="container-float"></div> 
  <div class="col-12 mx-auto" id="fundo"></div>

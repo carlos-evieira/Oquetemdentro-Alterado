@@ -1,6 +1,4 @@
-<?php 
-    require_once("./includes/header.php")
-   ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -34,83 +32,55 @@
 
   </head>
   <body>
+  <?php require_once('./includes/header.php'); ?>
+  <div class="row">
+    <div class="col-md-12 col-10 text-center my-md-4 mb-4 mt-2 ml-4">
+        <h1 class="display-4">Cadastrar Dependentes</h1>
+    </div>
+</div>
+   <form class="container col-lg-5" action="#" name="registration">
+      <div class="form-group ">
+         <label for="nome">Nome</label>
+         <input type="text"  name="nome" class="form-control" id="firstname">
+      </div>
+      <div class="form-group">
+         <label for="sobrenome">Sobrenome</label>
+         <input type="text"  name="sobrenome" class="form-control" id="lastname">
+      </div>
+      <div class="inline field mb-4">
+         <label>Alergenos</label>
 
-    <div class="container mt-5">
-        <div class="row">
-			<div class="col-md-5 mx-auto">
-			<div id="first">
-				<div class="myform form ">
-					 <div class="logo mb-3">
-						 <div class="col-md-12 text-center">
-							<h3>Cadastrar dependente</h3>
-						 </div>
-					</div>
+         <select name="alergenos" multiple="" class="label ui selection fluid dropdown ">
+         <!-- <option value="">Todos</option> -->
+         <option>Farinha de trigo</option> 
+         <option>crustáceos</option> 
+         <option>ovos</option> 
+         <option>peixes</option> 
+         <option>amendoim</option> 
+         <option>soja</option> 
+         <option>leites de todas as espécies de animais mamíferos</option> 
+         <option>amêndoa</option> 
+         <option>avelãs</option> 
+         <option>castanha de caju</option> 
+         <option>castanha-do-brasil ou castanha-do-pará</option> 
+         <option>macadâmias</option> 
+         <option>nozes</option> 
+         <option>pecãs</option> 
+         <option>pistaches</option> 
+         <option>pinoli</option> 
+         <option>castanhas</option> 
+         <option>látex natural</option> 
+         <option>centeio</option> 
+         <option>cevada</option> 
+         <option>aveia e suas estirpes hibridizadas</option> 
 
-			  <div id="second">
-			      <div class="myform form ">
-                        <div class="logo mb-3">
-                           <div class="col-md-12 text-center">
-                              <!-- <h1 >Signup</h1> -->
-                           </div>
-                        </div>
-                        <form action="#" name="registration">
-                           <div class="form-group">
-                              <label for="nome">Nome</label>
-                              <input type="text"  name="nome" class="form-control" id="firstname">
-                           </div>
-                           <div class="form-group">
-                              <label for="sobrenome">Sobrenome</label>
-                              <input type="text"  name="sobrenome" class="form-control" id="lastname">
-                           </div>
-                           
-            <div class="">
-    
-                <div class="inline field ">
-                    <label>Alergenos</label>
-    
-                    <select name="alergenos" multiple="" class="label ui selection fluid dropdown ">
-                    <!-- <option value="">Todos</option> -->
-                    <option>Farinha de trigo</option> 
-                    <option>crustáceos</option> 
-                    <option>ovos</option> 
-                    <option>peixes</option> 
-                    <option>amendoim</option> 
-                    <option>soja</option> 
-                    <option>leites de todas as espécies de animais mamíferos</option> 
-                    <option>amêndoa</option> 
-                    <option>avelãs</option> 
-                    <option>castanha de caju</option> 
-                    <option>castanha-do-brasil ou castanha-do-pará</option> 
-                    <option>macadâmias</option> 
-                    <option>nozes</option> 
-                    <option>pecãs</option> 
-                    <option>pistaches</option> 
-                    <option>pinoli</option> 
-                    <option>castanhas</option> 
-                    <option>látex natural</option> 
-                    <option>centeio</option> 
-                    <option>cevada</option> 
-                    <option>aveia e suas estirpes hibridizadas</option> 
-    
-                    </select>
-                </div>
-                            
-                <div class="ui button lista m-3">
-                    Limpar selecionados
-                </div>
-                <!-- <button type="submit" class="btn btn-primary lista">Enviar</button> -->
-                
-                
-            </div>       
-                           <div class="col-md-12 text-center mb-3">
-                              <button type="submit" class=" btn btn-block mybtn btn-danger tx-tfm">Incluir dependente</button>
-                           </div> 
-                            </div>
-                        </form>
-                     </div>
-			</div>
-		</div>
-      </div>   
+         </select>
+      </div>
+      <button type="submit" class=" btn btn-danger col-lg-5 text-center">Incluir dependente</button>             
+      <button type="submit" class=" btn ui button col-lg-5 text-center ml-3">Limpar selecionados</button>
+         
+   </form>
+        
          
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
