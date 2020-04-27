@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,19 +20,16 @@
 
 
 
-  <div class="container">
+    <div class="container mt-5">
       <div class="row">
-          <div class=" col-lg-6 ml-5 mx-3 myfa-rotate-270 py-5">
-              <h3>Selecione os ingredientes que você tem restrição</h3>
-  
-              <div class=" col-xl-12">
-                  <label>Ingredientes</label>
-  
+          <div class=" col-lg-6 myfa-rotate-270 py-5 ">
+            <h3>Selecione os ingredientes que você tem restrição</h3>
+              <label>Ingredientes</label>
                   <select name="alergenos" multiple="" class="container label ui selection fluid dropdown ">
-                  <!-- <option value="">Todos</option> -->
-                  <option>Farinha de trigo</option> 
-                  <option>crustáceos</option> 
-                  <option>ovos</option> 
+                    <!-- <option value="">Todos</option> -->
+                    <option>Farinha de trigo</option> 
+                    <option>crustáceos</option> 
+                    <option>ovos</option> 
                   <option>peixes</option> 
                   <option>amendoim</option> 
                   <option>soja</option> 
@@ -50,80 +48,78 @@
                   <option>centeio</option> 
                   <option>cevada</option> 
                   <option>aveia e suas estirpes hibridizadas</option> 
-  
-                  </select>
-              </div>
-              <button type="submit" class="btn btn-danger lista">Enviar</button> 
-              <button type="submit" class="ui button lista m-3">Limpar selecionados</button>
+                </select>
+                    
+                  <button type="submit" class="btn btn-danger lista">Enviar</button> 
+                  <button type="submit" class="ui button lista m-3">Limpar selecionados</button>
+                </div>
+
+                  <div class="accordion md-accordion col-lg-5 ml-5 mt-5" id="accordionEx" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                      <div class="card-header " role="tab" id="headingOne1">
+                        <a class='links' data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                          aria-controls="collapseOne1">
+                          <h5 class="mb-0 ">
+                            Ultimas consultas <i class="fas fa-angle-down rotate-icon"></i>
+                          </h5>
+                        </a>
+                      </div>
+                      <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                        <ul class='mx-5'>
+                              <li>Bis</li>
+                              <li>Leite ninho</li>
+                              <li>Cup noodles frango</li>
+                              <li>Lasanha a bolonhesa sadia</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo2">
+                          <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                            aria-expanded="false" aria-controls="collapseTwo2">
+                            <h5 class="mb-0">
+                            Lista alergenos cadastrados <i class="fas fa-angle-down rotate-icon"></i>
+                            </h5>
+                          </a>
+                        </div>
+                          <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                            data-parent="#accordionEx">
+                            <div class="card-body">
+                                  <ul class='mx-5'>
+                                      <li>Gluten</li>
+                                      <li>castanha de caju</li>
+                                      <li>macadâmias</li>
+                                      <li>Corante</li>
+                                      <li>Camarao</li>
+                                  </ul>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingThree3">
+                          <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                            aria-expanded="false" aria-controls="collapseThree3">
+                            <h5 class="mb-0">
+                              Meus dependentes<i class="fas fa-angle-down rotate-icon"></i>
+                            </h5>
+                          </a>
+                        </div>
+                          <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                            data-parent="#accordionEx">
+                            <div class="card-body">
+                                  <ul class='mx-5'>
+                                      <li>João</li>
+                                      <li>Pedrinho</li>
+                                  </ul>
+                            </div>
+                          </div>
           </div>
-     </div>  
-     
-    <div class="accordion md-accordion col-lg-4" id="accordionEx" role="tablist" aria-multiselectable="true">
-      <div class="card">
-        <div class="card-header" role="tab" id="headingOne1">
-          <a class='links' data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-            aria-controls="collapseOne1">
-            <h5 class="mb-0">
-              Ultimas consultas <i class="fas fa-angle-down rotate-icon"></i>
-            </h5>
-          </a>
-        </div>
-        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-          data-parent="#accordionEx">
-          <div class="card-body">
-          <ul class='mx-5'>
-                <li>Bis</li>
-                <li>Leite ninho</li>
-                <li>Cup noodles frango</li>
-                <li>Lasanha a bolonhesa sadia</li>
-            </ul>
-          </div>
-        </div>
-      
-      <div class="card">
-        <div class="card-header" role="tab" id="headingTwo2">
-          <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-            aria-expanded="false" aria-controls="collapseTwo2">
-            <h5 class="mb-0">
-            Lista alergenos cadastrados <i class="fas fa-angle-down rotate-icon"></i>
-            </h5>
-          </a>
-        </div>
-          <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-            data-parent="#accordionEx">
-            <div class="card-body">
-                  <ul class='mx-5'>
-                      <li>Gluten</li>
-                      <li>castanha de caju</li>
-                      <li>macadâmias</li>
-                      <li>Corante</li>
-                      <li>Camarao</li>
-                  </ul>
-            </div>
-          </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-header" role="tab" id="headingThree3">
-          <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-            aria-expanded="false" aria-controls="collapseThree3">
-            <h5 class="mb-0">
-              Meus dependentes<i class="fas fa-angle-down rotate-icon"></i>
-            </h5>
-          </a>
-        </div>
-          <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-            data-parent="#accordionEx">
-            <div class="card-body">
-                  <ul class='mx-5'>
-                      <li>João</li>
-                      <li>Pedrinho</li>
-                  </ul>
-            </div>
-          </div>
-      </div>
-     </div>       
+      </div>      
     </div> 
+
+    
 
 
    

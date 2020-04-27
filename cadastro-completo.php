@@ -1,3 +1,6 @@
+<?php $ufs = ["AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", "MT", " MS "," MG "," PA "," PB "," PR "," PE "," PI "," RJ "," RN "," RO "," RS "," RR "," SC " , "SE", "SP", "TO"]; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,11 +23,11 @@
         </div>
         <div class="form-row">
             <div class="form-group col-sm-6">
-                <label for="inputNome">Seu nome</label>
+                <label for="inputNome">Nome</label>
                 <input type="text" class="form-control" id="inputNome" placeholder="Digite aqui seu nome">
             </div>
             <div class="form-group col-sm-6">
-                <label for="inputSobrenome">Seu sobrenome</label>
+                <label for="inputSobrenome">Sobrenome</label>
                 <input type="text" class="form-control" id="inputSobrenome" placeholder="Digite aqui sobrenome">
             </div>
         </div>
@@ -32,56 +35,36 @@
             <div>
                 <div class="form-row">
                     <div class="form-group col-sm-12">
-                        <label for="inputEnd">Seu endereço</label>
+                        <label for="inputEnd">Endereço</label>
                         <input type="text" class="form-control" id="inputEnd" placeholder="Digite aqui seu endereço completo">
                     </div>
                 </div>    
 
                 <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <label for="inputCidade">Sua cidade</label>
-                        <input type="text" class="form-control" id="inputCidade" placeholder="Digite aqui sua cidade">
-                    </div>
+
                     <div class="form-group col-sm-4">
-                        <label for="inputEst">Seu estado</label>
-                        <select id="inputEst" class="form-control">
-                            <option selected>Unidades federativas...</option>
-                            <option>AC</option>
-                            <option>AL</option>
-                            <option>AM</option>
-                            <option>AP</option>
-                            <option>BA</option>
-                            <option>CE</option>
-                            <option>DF</option>
-                            <option>ES</option>
-                            <option>GO</option>
-                            <option>MA</option>
-                            <option>MG</option>
-                            <option>MT</option>
-                            <option>MS</option>
-                            <option>PA</option>
-                            <option>PB</option>
-                            <option>PE</option>
-                            <option>PI</option>
-                            <option>PR</option>
-                            <option>RJ</option>
-                            <option>RO</option>
-                            <option>RN</option>
-                            <option>RS</option>
-                            <option>SC</option>
-                            <option>SE</option>
-                            <option>SP</option>
-                            <option>TO</option>
+                        <label for="inputEst">Estado</label>
+                        <select id="uf" class="form-control">
+                            <option disabled selected>Selecione uma UF</option>
+                            <?php foreach($ufs as $uf){ ?>
+                                <option value="<?php echo $uf; ?>"><?php echo $uf; ?></option>
+                            <?php } ?>
                         </select>
                     </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputCidade">Cidade</label>
+                        <input type="text" class="form-control" id="inputCidade" placeholder="Digite aqui sua cidade">
+                    </div>
+                   
                     <div class="form-group col-sm-2">
-                        <label for="inputCEP">Seu CEP</label>
+                        <label for="inputCEP">CEP</label>
                         <input type="text" class="form-control" id="inputCEP" placeholder="XXXXX-XXX">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-sm-12">
-                        <label for="alimentos">Selecione os produtos aos quais é alérgico</label>
+                        <label for="alimentos">Selecione os produtos aos quais você é alérgico</label>
                     </div>
                 </div>
                 <div class="form-row">
